@@ -7,6 +7,11 @@ class Widget {
     }
 }
 
+function print(text) {
+    console.log(text);
+}
+
 module.exports = {
-    Widget
+    Widget,
+    print
 }

@@ -38,10 +38,6 @@ class Buttons extends Widget {
     }
 }
 
-function myfunction() {
-    return null;
-}
-
 module.exports = {
     Buttons
 }
