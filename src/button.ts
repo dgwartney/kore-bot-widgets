@@ -1,5 +1,7 @@
-const {Widget} = require('./widget');
-class Buttons extends Widget {
+import {Widget} from './widget';
+export default class Buttons extends Widget {
+    _buttons;
+    _title;
     constructor(title="") {
         super();
         this._buttons = [];
@@ -36,8 +38,4 @@ class Buttons extends Widget {
         }
         return JSON.stringify(message);
     }
-}
-
-module.exports = {
-    Buttons
 }

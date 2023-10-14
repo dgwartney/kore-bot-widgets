@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2028",
-    "moduleResolution": "node"
-  }
+    "target": "es2018",
+    "moduleResolution": "bundler"
+  },
+  "outDir": "./dist",
+  "rootDir": "./src"
 }

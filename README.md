@@ -8,8 +8,8 @@ Javascript Class library for creating templates programmatically
 ### Button
 
 ```javascript
-const {print} = require('./widget.js');
-const {Buttons} = require('./button.js');
+const {print} = require('./widget.ts');
+const {Buttons} = require('./button.ts');
 
 const button = new Buttons("I am a button, button");
 button.add('template', 'Yo', 'Yo');

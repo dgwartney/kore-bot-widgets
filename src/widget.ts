@@ -1,4 +1,4 @@
-class Widget {
+export class Widget {
     constructor() {
     }
 
@@ -7,11 +7,6 @@ class Widget {
     }
 }
 
-function print(text) {
+export function print(text: string) {
     console.log(text);
-}
-
-module.exports = {
-    Widget,
-    print
 }
