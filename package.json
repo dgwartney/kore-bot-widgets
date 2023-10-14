@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "ncc run src/index.ts",
     "bundleup": "webpack-cli",
+    "start": "ncc run src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "david.gwartney@kore.com",
   "license": "ISC",
   "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
     "jest": "^29.5.0",
     "lite-server": "^2.6.1",
     "ts-loader": "^9.5.0",
