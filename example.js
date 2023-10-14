@@ -1,12 +1,12 @@
-// const {print} = require('./src/widget.ts');
-// const {Buttons} = require('./src/button.ts');
-//
-// const button = new Buttons("I am a button, button");
-// button.add('template', 'Yo', 'Yo');
-// button.add('template', 'Dude', 'Dude');
-//
-//
-// // Use print() wrapper function that is the same used in Kore XO Bot
-// print(button.render());
+const {Button, Buttons, ButtonType} = require('./dist/index')
 
-const {createButton} = require('./dist/app-bundle');
+const buttons = new Buttons('Hello');
+console.log(`title: ${buttons.getTitle()}`);
+const url= new URL('https://example.com');
+const button1 = new Button(ButtonType.POSTBACK, "Button 1", url, "");
+const button2 = new Button(ButtonType.POSTBACK, "Button 2", url, "");
+const button3 = new Button(ButtonType.POSTBACK, "Button 3", url, "");
+buttons.add(button1)
+buttons.add(button2)
+buttons.add(button3);
+console.log(buttons.render());

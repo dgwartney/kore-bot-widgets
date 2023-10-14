@@ -9,7 +9,7 @@ Javascript Class library for creating templates programmatically
 
 ```javascript
 const {print} = require('./widget.ts');
-const {Buttons} = require('./button.ts');
+const {Buttons} = require('./buttons.ts');
 
 const button = new Buttons("I am a button, button");
 button.add('template', 'Yo', 'Yo');

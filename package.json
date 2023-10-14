@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ncc build src/app.ts -o dist",
+    "build": "ncc build src/app.ts -t -o dist",
     "dev": "ncc run src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

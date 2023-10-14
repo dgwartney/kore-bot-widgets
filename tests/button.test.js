@@ -1,4 +1,4 @@
-const {Buttons} = require('../src/button');
+const {Buttons} = require('../src/buttons');
 describe('Button', () => {
 
     test('Constructor', () => {

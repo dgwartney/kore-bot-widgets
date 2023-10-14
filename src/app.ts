@@ -1,3 +1,2 @@
-// import chalk from "chalk";
-import Buttons from "./button";
-export {Buttons}
+import {Button, Buttons, ButtonType} from "./buttons";
+export {Button, Buttons, ButtonType}

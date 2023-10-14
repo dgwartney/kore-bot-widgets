@@ -2,11 +2,7 @@ export class Widget {
     constructor() {
     }
 
-    render() {
-        return null
+    render(): String {
+        return String();
     }
-}
-
-export function print(text: string) {
-    console.log(text);
 }
